@@ -23,7 +23,7 @@ const config = {
   url: 'https://ttoommmmiiee.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/sapf-docs/build',
+  baseUrl: '/sapf-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -51,10 +51,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          routeBasePath: '/',
           editUrl:
-            'https://github.com/ttoommmmiiee/sapf-docs/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ttoommmmiiee/sapf-docs/tree/main/docs/',
         },
         blog: false,
         theme: {
